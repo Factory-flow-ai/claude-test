@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- QR Code Frame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00D9FF"
+        android:strokeWidth="3"
+        android:pathData="M26,26h56v56h-56z" />
+    <!-- Top-left square -->
+    <path
+        android:fillColor="#00D9FF"
+        android:pathData="M34,34h14v14h-14z" />
+    <!-- Top-right square -->
+    <path
+        android:fillColor="#00D9FF"
+        android:pathData="M60,34h14v14h-14z" />
+    <!-- Bottom-left square -->
+    <path
+        android:fillColor="#00D9FF"
+        android:pathData="M34,60h14v14h-14z" />
+    <!-- Bottom-right square (semi-transparent) -->
+    <path
+        android:fillColor="#8000D9FF"
+        android:pathData="M60,60h14v14h-14z" />
+    <!-- Green checkmark circle -->
+    <path
+        android:fillColor="#2ED573"
+        android:pathData="M78,78m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+    <!-- Checkmark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M73,78l3,3l6,-6" />
+</vector>
