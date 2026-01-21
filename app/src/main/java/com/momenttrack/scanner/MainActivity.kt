@@ -208,7 +208,7 @@ class MainActivity : AppCompatActivity() {
                 code = value,
                 format = barcode.format.toString(),
                 timestamp = now,
-                deviceId = getDeviceId(),
+                deviceId = getAppDeviceId(),
                 locationId = currentLocation,
                 latitude = null, // TODO: Add GPS
                 longitude = null,
@@ -320,7 +320,7 @@ class MainActivity : AppCompatActivity() {
         binding.tvScanCount.text = "${scans.size} scans"
     }
 
-    private fun getDeviceId(): String {
+    private fun getAppDeviceId(): String {
         val prefs = getSharedPreferences("momenttrack", MODE_PRIVATE)
         var deviceId = prefs.getString("device_id", null)
         if (deviceId == null) {
